@@ -1,0 +1,16 @@
+# ninja log v5
+61	67	1653068653124163889	third-party/gtest/googlemock/libgmock_maind.a	eb6e5324e508f29f
+2	233	1653068653288175433	CMakeFiles/banking.dir/banking/Transaction.cpp.o	811ba61d9675bc3
+2	3726	1653068182514014769	third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	5a0b4083bd5419e4
+1	2214	1653068181002028621	third-party/gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	86684c2f183092ac
+2	628	1653068653688203587	CMakeFiles/tests.dir/tests/tests.cpp.o	c793be399b85b246
+628	765	1653068653820212879	tests	bc59d0262d38e2ac
+41	61	1653068653120163608	third-party/gtest/googlemock/libgmockd.a	c2d27e486b40dd60
+3	40	1653068653096161918	third-party/gtest/googlemock/gtest/libgtestd.a	23647de9b2cef3bc
+233	239	1653068653296175996	libbanking.a	dfb379f47815976e
+2	143	1653068653200169239	CMakeFiles/banking.dir/banking/Account.cpp.o	f3c44c339fa29e2f
+2	610	1653068179402043283	third-party/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	7c30976aeff59547
+41	49	1653068653108162763	third-party/gtest/googlemock/gtest/libgtest_maind.a	e960f3367dc294f2
+2	925	1653068179714040424	third-party/gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	a1c81625acc144f2
+3	658	1653068702715504161	CMakeFiles/tests.dir/tests/tests.cpp.o	c793be399b85b246
+658	799	1653068702855513216	tests	bc59d0262d38e2ac
