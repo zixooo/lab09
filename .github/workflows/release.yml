@@ -1,0 +1,30 @@
+name: release
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v1
+      - name: build
+        run: |
+          git submodule update --init --recursive
+          cmake -B ./output
+          cd output
+          make
+      - name: version
+        run: echo "::set-output name=version::$(./bin/azblogfilter --version)"
+        id: version
+      - name: upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: banking
+          path: |
+            ./banking
+      - name: download artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: banking
+          path: ./artifact
